@@ -9,7 +9,7 @@ var express_1 = __importDefault(require("express")); // lib es7
 var app = express_1.default();
 app.get('/', function (req, res) {
     console.log(123);
-    res.send('hello world!');
+    res.send('hello world !');
 });
 var server = app.listen(3001, function () {
     console.log('Listen on port 3001');
